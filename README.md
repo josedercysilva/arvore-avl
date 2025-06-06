@@ -1,4 +1,4 @@
-## Apenas a main de uma árvore AVL 👋
+## Apenas a main da implementação de uma árvore AVL em linguagem C👋
 
 <!--
 **josedercysilva/josedercysilva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
