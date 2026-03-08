@@ -1,0 +1,5 @@
+# Ignorar executaveis e pastas de build
+build/
+*.o
+*.out
+*.exe
