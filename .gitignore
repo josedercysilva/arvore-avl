@@ -1,5 +1,26 @@
-# Ignorar executaveis e pastas de build
+# ==========================================
+# AVL Tree - Git Ignore Rules
+# ==========================================
+
+# --- Build Artifacts (Binários e Objetos) ---
+# Ignora a pasta de saída onde o executável final é gerado
 build/
+
+# Ignora os arquivos objeto compilados (etapa intermediária do GCC)
 *.o
+
+# Ignora extensões genéricas de executáveis (para casos de compilação manual)
 *.out
 *.exe
+
+# --- OS & Environment (Arquivos do Sistema Operacional) ---
+# Metadados de diretório do macOS (muito comum aparecer acidentalmente)
+.DS_Store
+
+# Thumbnails do Windows
+Thumbs.db
+
+# --- IDEs & Editors (Configurações Locais) ---
+# Ignora configurações de workspace do VS Code e CLion
+.vscode/
+.idea/
