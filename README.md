@@ -8,7 +8,7 @@ A robust, self-balancing AVL (Adelson-Velsky and Landis) Binary Search Tree impl
 This project demonstrates low-level memory management, pointer manipulation, and professional software architecture.
 
 ## 🏗️ Architecture & Best Practices
-This repository is structured following industry standards for C/C++ projects (like AOSP and embedded systems):
+This repository is structured following industry standards for C/C++ projects (like embedded systems):
 - **Single Responsibility Principle (SRP):** Business logic is decoupled from CLI interactions.
 - **Modularization:** Strict separation between the public API (`include/`) and the implementation (`src/`).
 - **C89 Standards:** Variable declarations are placed at the top of their scopes for strict compliance, a common requirement in low-level and critical systems.
