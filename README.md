@@ -1,4 +1,4 @@
-# AVL Tree Implementation in C 🌳
+# AVL Tree Implementation in C 
 
 ![Language](https://img.shields.io/badge/language-C-blue.svg)
 ![Standard](https://img.shields.io/badge/standard-C89%2FANSI-brightgreen)
@@ -7,7 +7,7 @@
 A robust, self-balancing AVL (Adelson-Velsky and Landis) Binary Search Tree implemented in standard C. 
 This project demonstrates low-level memory management, pointer manipulation, and professional software architecture.
 
-## 🏗️ Architecture & Best Practices
+##  Architecture & Best Practices
 This repository is structured following industry standards for C/C++ projects (like embedded systems):
 - **Single Responsibility Principle (SRP):** Business logic is decoupled from CLI interactions.
 - **Modularization:** Strict separation between the public API (`include/`) and the implementation (`src/`).
@@ -15,7 +15,7 @@ This repository is structured following industry standards for C/C++ projects (l
 - **Doxygen Documentation:** Public APIs and internal logic are fully documented for maintainability.
 - **Automated Build:** Configured with a `Makefile` for streamlined compilation.
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 arvore-avl/
 ├── include/
